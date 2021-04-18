@@ -64,8 +64,28 @@ li:first-letter {
 .temperature-now .active {
     color: #272142;
     cursor: default;
+    text-decoration: none;
+
 }
 
 .temperature-now .active:hover {
     text-decoration: none;
+}
+
+.weather-forecast {
+    margin: 20px;
+    text-align: center;
+    color: #272142;
+}
+.weather-forecast-date {    
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+.weather-forecast-temperature {
+    font-size: 13px;
+}
+
+.wearther-forecast-temperature-min {
+    opacity: 0.6;
 }
